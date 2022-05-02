@@ -8,4 +8,4 @@ const mergeTwoSortedLists = (l1, l2) => {
         l2.next = mergeTwoSortedLists(l1, l2.next);
         return l2;
     }
-    }
+}
