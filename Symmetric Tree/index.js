@@ -8,7 +8,5 @@ var isSymmetric = function(root) {
      return out(root1.left,root2.right) && out(root1.right,root2.left);
    }
  };  
-
-
  isSymmetric([1,2,2,3,4,4,3])
  
